@@ -56,12 +56,13 @@ body * {
 #app {
   width: fit-content;
   margin: auto;
-  padding: 40px;
+  padding: 30px;
   /* border: 1px solid yellow; */
 }
 
 header {
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -178,7 +179,7 @@ main #cards{
   background-color: #1d1c19;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   border-radius: 5px;
   border: 1px solid #ffffff48;
   flex-wrap: wrap;
