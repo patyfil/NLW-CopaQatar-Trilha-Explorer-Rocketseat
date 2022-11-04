@@ -53,6 +53,14 @@ body * {
   font-family: "Roboto", sans-serif;
 }
 
+img.logo {
+  width: 200px;
+}
+
+li img {
+  width: 50px;
+}
+
 #app {
   width: fit-content;
   margin: auto;
@@ -74,8 +82,8 @@ header {
   justify-content: space-around;
 }
 
-main #cards{
-    transition: all .3s ease;
+main #cards {
+  transition: all 0.3s ease;
 }
 
 .card {
@@ -89,11 +97,11 @@ main #cards{
   /* height: fit-content; */
 }
 
-.card h4{
-    margin-bottom: 33px;
-    color: white;
-    font-size: 15px;
-    text-transform: uppercase;
+.card h4 {
+  margin-bottom: 33px;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 .card h2 {
   display: flex;
@@ -130,7 +138,6 @@ main #cards{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .card ul li + li {
@@ -144,7 +151,6 @@ main #cards{
   line-height: 125%;
   color: #e1e1e6;
   /* text-align: center; */
-
 }
 
 .card h2:hover,
@@ -200,7 +206,7 @@ main #cards{
 .active {
   background-color: white;
   border-radius: 5px;
-  color: #DA1355 !important;
+  color: #da1355 !important;
 }
 
 @media (min-width: 700px) {
@@ -217,5 +223,3 @@ main #cards{
     margin-right: 20px;
   }
 }
-
-
