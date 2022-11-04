@@ -174,7 +174,7 @@ main #cards{
   }
 }
 
-#menu {
+#menu ul {
   background-color: #1d1c19;
   display: flex;
   justify-content: space-between;
@@ -184,14 +184,14 @@ main #cards{
   flex-wrap: wrap;
 }
 
-#menu a {
+#menu li {
   color: white;
   padding: 10px 40px;
   cursor: pointer;
   transition: all 0.1s ease;
 }
 
-#menu a:hover {
+#menu li:hover {
   background-color: white;
   border-radius: 5px;
   color: #261118;
