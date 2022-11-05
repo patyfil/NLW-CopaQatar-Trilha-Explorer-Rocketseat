@@ -112,6 +112,7 @@ grupoB.addEventListener("click", () => {
 let grupoC = document.querySelector("#GrupoC")
 grupoC.addEventListener("click", () => {
   document.querySelector("#cards").innerHTML = `
+  <main id="cards">
     ${createCard(
       "22/11",
       "terça",
@@ -132,7 +133,9 @@ grupoC.addEventListener("click", () => {
       createGame("polônia", "16:00", "argentina"),
       createGame("arábia saudita", "16:00", "méxico"),
       "3ª Rodada"
-    )}`
+    )}
+    </main>
+    `
 })
 
 let grupoD = document.querySelector("#GrupoD")
