@@ -117,21 +117,21 @@ grupoC.addEventListener("click", () => {
       "22/11",
       "terça",
       createGame("argentina", "07:00", "arábia_saudita") +
-      createGame("méxico", "13:00", "polônia"),
+        createGame("méxico", "13:00", "polônia"),
       "1ª Rodada"
     )}
     ${createCard(
       "26/11",
       "sabado",
       createGame("polônia", "10:00", "arábia_saudita") +
-      createGame("argentina", "16:00", "méxico"),
+        createGame("argentina", "16:00", "méxico"),
       "2ª Rodada"
     )}
     ${createCard(
       "30/11",
       "quarta",
       createGame("polônia", "16:00", "argentina") +
-      createGame("arábia_saudita", "16:00", "méxico"),
+        createGame("arábia_saudita", "16:00", "méxico"),
       "3ª Rodada"
     )}
     </main>
@@ -140,28 +140,31 @@ grupoC.addEventListener("click", () => {
 
 let grupoD = document.querySelector("#GrupoD")
 grupoD.addEventListener("click", () => {
-  document.querySelector("#cards").innerHTML =
-    createCard(
+  document.querySelector("#cards").innerHTML = `
+  <main id="cards">
+    ${createCard(
       "22/11",
       "terça",
       createGame("dinamarca", "10:00", "tunísia") +
         createGame("frança", "16:00", "austrália"),
       "1ª Rodada"
-    ) +
-    createCard(
-      "26/11",
-      "sabado",
-      createGame("tunísia", "07:00", "austrália") +
-        createGame("frança", "13:00", "dinamarca"),
-      "2ª Rodada"
-    ) +
-    createCard(
-      "30/11",
-      "quarta",
-      createGame('tunísia', '12:00', 'frança') +
-        createGame("austrália", "12:00", "dinamarca"),
-      "3ª Rodada"
-    )
+    )}
+     ${createCard(
+       "26/11",
+       "sabado",
+       createGame("tunísia", "07:00", "austrália") +
+         createGame("frança", "13:00", "dinamarca"),
+       "2ª Rodada"
+     )}
+     ${createCard(
+       "30/11",
+       "quarta",
+       createGame("tunísia", "12:00", "frança") +
+         createGame("austrália", "12:00", "dinamarca"),
+       "3ª Rodada"
+     )}
+    </main>
+    `
 })
 
 let grupoE = document.querySelector("#GrupoE")
