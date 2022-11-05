@@ -152,7 +152,7 @@ grupoD.addEventListener("click", () => {
      ${createCard(
        "26/11",
        "sabado",
-       createGame("tunísia", "07:00", "austrália") +
+       createGame("tunísia", "07:00", "australia") +
          createGame("frança", "13:00", "dinamarca"),
        "2ª Rodada"
      )}
