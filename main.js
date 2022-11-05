@@ -90,13 +90,13 @@ grupoB.addEventListener("click", () => {
       "21/11",
       "sabado",
       createGame("inglaterra", "10:00", "irã") +
-        createGame("estados unidos", "16:00", "país_de_gales"),
+        createGame("estados unidos", "16:00", "país de gales"),
       "1ª Rodada"
     ) +
     createCard(
       "25/11",
       "sexta",
-      createGame("país_de_gales", "07:00", "irã") +
+      createGame("país de gales", "07:00", "irã") +
         createGame("inglaterra", "16:00", "estados unidos"),
       "2ª Rodada"
     ) +
@@ -104,7 +104,7 @@ grupoB.addEventListener("click", () => {
       "29/11",
       "terça",
       createGame("irã", "16:00", "estados unidos") +
-        createGame("país_de_gales", "16:00", "inglaterra"),
+        createGame("país de gales", "16:00", "inglaterra"),
       "3ª Rodada"
     )
 })
