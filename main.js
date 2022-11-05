@@ -58,27 +58,27 @@ grupoA.addEventListener("click", () => {
     createCard(
       "20/11",
       "domingo",
-      createGame("qatar", "13:00", "Equador"),
+      createGame("qatar", "13:00", "equador"),
       "1ª Rodada"
     ) +
     createCard(
       "21/11",
       "segunda",
-      createGame("senegal", "13:00", "Holanda"),
+      createGame("senegal", "13:00", "holanda"),
       "1ª Rodada"
     ) +
     createCard(
       "25/11",
       "sexta",
       createGame("qatar", "10:00", "senegal") +
-        createGame("Holanda", "13:00", "Equador"),
+        createGame("holanda", "13:00", "equador"),
       "2ª Rodada"
     ) +
     createCard(
       "29/11",
       "terça",
-      createGame("Holanda", "12:00", "qatar") +
-        createGame("Equador", "12:00", "senegal"),
+      createGame("holanda", "12:00", "qatar") +
+        createGame("equador", "12:00", "senegal"),
       "3ª Rodada"
     )
 })
@@ -89,22 +89,22 @@ grupoB.addEventListener("click", () => {
     createCard(
       "21/11",
       "sabado",
-      createGame("Inglaterra", "10:00", "Irã") +
-        createGame("Estados Unidos", "16:00", "País de Gales"),
+      createGame("inglaterra", "10:00", "irã") +
+        createGame("estados unidos", "16:00", "país de gales"),
       "1ª Rodada"
     ) +
     createCard(
       "25/11",
       "sexta",
-      createGame("País de Gales", "07:00", "Irã") +
-        createGame("Inglaterra", "16:00", "Estados Unidos"),
+      createGame("país de gales", "07:00", "irã") +
+        createGame("inglaterra", "16:00", "estados unidos"),
       "2ª Rodada"
     ) +
     createCard(
       "29/11",
       "terça",
-      createGame("Irã", "16:00", "Estados Unidos") +
-        createGame("País de Gales", "16:00", "Inglaterra"),
+      createGame("irã", "16:00", "estados unidos") +
+        createGame("país de gales", "16:00", "inglaterra"),
       "3ª Rodada"
     )
 })
@@ -115,22 +115,22 @@ grupoC.addEventListener("click", () => {
     createCard(
       "22/11",
       "terça",
-      createGame("argentina", "07:00", "Arábia Saudita") +
-        createGame("méxico", "13:00", "Polônia"),
+      createGame("argentina", "07:00", "arábia saudita") +
+        createGame("méxico", "13:00", "polônia"),
       "1ª Rodada"
     ) +
     createCard(
       "26/11",
       "sabado",
-      createGame("Polônia", "10:00", "Arábia Saudita") +
+      createGame("polônia", "10:00", "arábia saudita") +
         createGame("argentina", "16:00", "méxico"),
       "2ª Rodada"
     ) +
     createCard(
       "30/11",
       "quarta",
-      createGame("Polônia", "16:00", "argentina") +
-        createGame("Arábia Saudita", "16:00", "méxico"),
+      createGame("polônia", "16:00", "argentina") +
+        createGame("arábia saudita", "16:00", "méxico"),
       "3ª Rodada"
     )
 })
@@ -141,22 +141,22 @@ grupoD.addEventListener("click", () => {
     createCard(
       "22/11",
       "terça",
-      createGame("Dinamarca", "10:00", "Tunísia") +
-        createGame("França", "16:00", "Austrália"),
+      createGame("dinamarca", "10:00", "tunísia") +
+        createGame("frança", "16:00", "austrália"),
       "1ª Rodada"
     ) +
     createCard(
       "26/11",
       "sabado",
-      createGame("Tunísia", "07:00", "Austrália") +
-        createGame("França", "13:00", "Dinamarca"),
+      createGame("tunísia", "07:00", "austrália") +
+        createGame("frança", "13:00", "dinamarca"),
       "2ª Rodada"
     ) +
     createCard(
       "30/11",
       "quarta",
-      createGame("Tunísia", "12:00", "França") +
-        createGame("Austrália", "12:00", "Dinamarca"),
+      createGame("tunísia", "12:00", "frança") +
+        createGame("austrália", "12:00", "dinamarca"),
       "3ª Rodada"
     )
 })
@@ -167,22 +167,22 @@ grupoE.addEventListener("click", () => {
     createCard(
       "23/11",
       "quarta",
-      createGame("Alemanha", "10:00", "Japão") +
-        createGame("Espanha", "13:00", "costa rica"),
+      createGame("alemanha", "10:00", "japão") +
+        createGame("espanha", "13:00", "costa rica"),
       "1ª Rodada"
     ) +
     createCard(
       "27/11",
       "domingo",
-      createGame("Japão", "07:00", "costa rica") +
-        createGame("Espanha", "16:00", "Alemanha"),
+      createGame("japão", "07:00", "costa rica") +
+        createGame("espanha", "16:00", "alemanha"),
       "2ª Rodada"
     ) +
     createCard(
       "01/12",
       "quinta",
-      createGame("Japão", "16:00", "Espanha") +
-        createGame("costa rica", "16:00", "Alemanha"),
+      createGame("japão", "16:00", "espanha") +
+        createGame("costa rica", "16:00", "alemanha"),
       "3ª Rodada"
     )
 })
@@ -193,22 +193,22 @@ grupoF.addEventListener("click", () => {
     createCard(
       "23/11",
       "quarta",
-      createGame("Marrocos", "07:00", "Croácia") +
-        createGame("Bélgica", "16:00", "Canadá"),
+      createGame("marrocos", "07:00", "croácia") +
+        createGame("bélgica", "16:00", "canadá"),
       "1ª Rodada"
     ) +
     createCard(
       "27/11",
       "domingo",
-      createGame("Bélgica", "10:00", "Marrocos") +
-        createGame("Croácia", "13:00", "Canadá"),
+      createGame("bélgica", "10:00", "marrocos") +
+        createGame("croácia", "13:00", "canadá"),
       "2ª Rodada"
     ) +
     createCard(
       "01/12",
       "quinta",
-      createGame("Croácia", "12:00", "Bélgica") +
-        createGame("Canadá", "12:00", "Marrocos"),
+      createGame("croácia", "12:00", "bélgica") +
+        createGame("canadá", "12:00", "marrocos"),
       "3ª Rodada"
     )
 })
@@ -245,22 +245,22 @@ grupoH.addEventListener("click", () => {
     createCard(
       "24/11",
       "quinta",
-      createGame("Uruguai", "10:00", "Coreia do Sul") +
+      createGame("uruguai", "10:00", "coreia do sul") +
         createGame("portugal", "13:00", "Gana"),
       "1ª Rodada"
     ) +
     createCard(
       "28/11",
       "segunda",
-      createGame("Coreia do Sul", "10:00", "Gana") +
-        createGame("portugal", "16:00", "Uruguai"),
+      createGame("coreia do sul", "10:00", "Gana") +
+        createGame("portugal", "16:00", "uruguai"),
       "2ª Rodada"
     ) +
     createCard(
       "02/12",
       "sexta",
-      createGame("Coreia do Sul", "12:00", "portugal") +
-        createGame("Gana", "12:00", "Uruguai"),
+      createGame("coreia do sul", "12:00", "portugal") +
+        createGame("Gana", "12:00", "uruguai"),
       "3ª Rodada"
     )
 })
