@@ -111,28 +111,28 @@ grupoB.addEventListener("click", () => {
 
 let grupoC = document.querySelector("#GrupoC")
 grupoC.addEventListener("click", () => {
-  document.querySelector("#cards").innerHTML =
-    createCard(
+  document.querySelector("#cards").innerHTML = `
+    ${createCard(
       "22/11",
       "terça",
-      createGame("argentina", "07:00", "arábia saudita") +
-        createGame("méxico", "13:00", "polônia"),
+      createGame("argentina", "07:00", "arábia saudita"),
+      createGame("méxico", "13:00", "polônia"),
       "1ª Rodada"
-    ) +
-    createCard(
+    )}
+    ${createCard(
       "26/11",
       "sabado",
-      createGame("polônia", "10:00", "arábia saudita") +
-        createGame("argentina", "16:00", "méxico"),
+      createGame("polônia", "10:00", "arábia saudita"),
+      createGame("argentina", "16:00", "méxico"),
       "2ª Rodada"
-    ) +
-    createCard(
+    )}
+    ${createCard(
       "30/11",
       "quarta",
-      createGame("polônia", "16:00", "argentina") +
-        createGame("arábia saudita", "16:00", "méxico"),
+      createGame("polônia", "16:00", "argentina"),
+      createGame("arábia saudita", "16:00", "méxico"),
       "3ª Rodada"
-    )
+    )}`
 })
 
 let grupoD = document.querySelector("#GrupoD")
