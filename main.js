@@ -33,22 +33,22 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "24/11",
     "quinta",
-    createGame("Suíça", "07:00", "Camarões") +
-      createGame("brasil", "16:00", "Sérvia"),
+    createGame("suíça", "07:00", "camarões") +
+      createGame("brasil", "16:00", "sérvia"),
     "1ª Rodada"
   ) +
   createCard(
     "28/11",
     "segunda",
-    createGame("Camarões", "07:00", "Sérvia") +
-      createGame("brasil", "13:00", "Suíça"),
+    createGame("camarões", "07:00", "sérvia") +
+      createGame("brasil", "13:00", "suíça"),
     "2ª Rodada"
   ) +
   createCard(
     "02/12",
     "sexta",
-    createGame("Camarões", "16:00", "brasil") +
-      createGame("Sérvia", "16:00", "Suíça"),
+    createGame("camarões", "16:00", "brasil") +
+      createGame("sérvia", "16:00", "suíça"),
     "3ª Rodada"
   )
 
@@ -219,22 +219,22 @@ grupoG.addEventListener("click", () => {
     createCard(
       "24/11",
       "quinta",
-      createGame("Suíça", "07:00", "Camarões") +
-        createGame("brasil", "16:00", "Sérvia"),
+      createGame("suíça", "07:00", "camarões") +
+        createGame("brasil", "16:00", "sérvia"),
       "1ª Rodada"
     ) +
     createCard(
       "28/11",
       "segunda",
-      createGame("Camarões", "07:00", "Sérvia") +
-        createGame("brasil", "13:00", "Suíça"),
+      createGame("camarões", "07:00", "sérvia") +
+        createGame("brasil", "13:00", "suíça"),
       "2ª Rodada"
     ) +
     createCard(
       "02/12",
       "sexta",
-      createGame("Camarões", "16:00", "brasil") +
-        createGame("Sérvia", "16:00", "Suíça"),
+      createGame("camarões", "16:00", "brasil") +
+        createGame("sérvia", "16:00", "suíça"),
       "3ª Rodada"
     )
 })
