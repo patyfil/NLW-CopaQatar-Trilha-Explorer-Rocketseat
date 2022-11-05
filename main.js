@@ -146,21 +146,21 @@ grupoD.addEventListener("click", () => {
       "22/11",
       "terça",
       createGame("dinamarca", "10:00", "tunísia") +
-        createGame("franca", "16:00", "australia"),
+        createGame("frança", "16:00", "austrália"),
       "1ª Rodada"
     )}
      ${createCard(
        "26/11",
        "sabado",
-       createGame("tunísia", "07:00", "australia") +
-         createGame("franca", "13:00", "dinamarca"),
+       createGame("tunísia", "07:00", "austrália") +
+         createGame("frança", "13:00", "dinamarca"),
        "2ª Rodada"
      )}
      ${createCard(
        "30/11",
        "quarta",
-       createGame("tunísia", "12:00", "franca") +
-         createGame("australia", "12:00", "dinamarca"),
+       createGame("tunísia", "12:00", "frança") +
+         createGame("austrália", "12:00", "dinamarca"),
        "3ª Rodada"
      )}
     </main>
@@ -173,21 +173,21 @@ grupoE.addEventListener("click", () => {
     createCard(
       "23/11",
       "quarta",
-      createGame("alemanha", "10:00", "japao") +
+      createGame("alemanha", "10:00", "japão") +
         createGame("espanha", "13:00", "costa rica"),
       "1ª Rodada"
     ) +
     createCard(
       "27/11",
       "domingo",
-      createGame("japao", "07:00", "costa rica") +
+      createGame("japão", "07:00", "costa rica") +
         createGame("espanha", "16:00", "alemanha"),
       "2ª Rodada"
     ) +
     createCard(
       "01/12",
       "quinta",
-      createGame("japao", "16:00", "espanha") +
+      createGame("japão", "16:00", "espanha") +
         createGame("costa rica", "16:00", "alemanha"),
       "3ª Rodada"
     )
@@ -251,21 +251,21 @@ grupoH.addEventListener("click", () => {
     createCard(
       "24/11",
       "quinta",
-      createGame("uruguai", "10:00", "coreia do sul") +
+      createGame("uruguai", "10:00", "coréia do sul") +
         createGame("portugal", "13:00", "Gana"),
       "1ª Rodada"
     ) +
     createCard(
       "28/11",
       "segunda",
-      createGame("coreia do sul", "10:00", "Gana") +
+      createGame("coréia do sul", "10:00", "Gana") +
         createGame("portugal", "16:00", "uruguai"),
       "2ª Rodada"
     ) +
     createCard(
       "02/12",
       "sexta",
-      createGame("coreia do sul", "12:00", "portugal") +
+      createGame("coréia do sul", "12:00", "portugal") +
         createGame("Gana", "12:00", "uruguai"),
       "3ª Rodada"
     )
