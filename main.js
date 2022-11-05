@@ -173,21 +173,21 @@ grupoE.addEventListener("click", () => {
     createCard(
       "23/11",
       "quarta",
-      createGame("alemanha", "10:00", "japão") +
+      createGame("alemanha", "10:00", "japao") +
         createGame("espanha", "13:00", "costa rica"),
       "1ª Rodada"
     ) +
     createCard(
       "27/11",
       "domingo",
-      createGame("japão", "07:00", "costa rica") +
+      createGame("japao", "07:00", "costa rica") +
         createGame("espanha", "16:00", "alemanha"),
       "2ª Rodada"
     ) +
     createCard(
       "01/12",
       "quinta",
-      createGame("japão", "16:00", "espanha") +
+      createGame("japao", "16:00", "espanha") +
         createGame("costa rica", "16:00", "alemanha"),
       "3ª Rodada"
     )
