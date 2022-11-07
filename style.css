@@ -157,7 +157,7 @@ main #cards {
 .card ul {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 20px;
 
   width: 270px;
 }
