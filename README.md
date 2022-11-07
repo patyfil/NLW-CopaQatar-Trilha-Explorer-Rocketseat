@@ -13,9 +13,15 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 </p>
 
 <p align="center">
+ versão 1 <br />
   <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20desktop.jpg" width="650" alt="template pc">  
     <br />
-    <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20mobile.jpg" width="250" alt="template mobile">  
+ versão 2 <br />
+  <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20desktop%20vers2.jpg" width="650" alt="template pc">  
+    <br />    
+ versão 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;versão 2 <br />  
+  <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20mobile.jpg" width="250" alt="template mobile">
+  <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20mobile%20vers2.jpg" width="250" alt="template mobile"> 
 </p>
 
 
