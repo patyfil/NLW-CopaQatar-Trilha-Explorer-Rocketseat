@@ -73,6 +73,34 @@ header {
   text-align: center;
 }
 
+#menu ul {
+  background-color: #1d1c19;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: 1px solid #ffffff48;
+  flex-wrap: wrap;
+}
+
+#menu li {
+  color: white;
+  padding: 10px 40px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+#menu li:hover {
+  background-color: white;
+  border-radius: 5px;
+  color: #261118;
+}
+.active {
+  background-color: white;
+  border-radius: 5px;
+  color: #da1355 !important;
+}
+
 #cards {
   display: flex;
   flex-direction: row;
@@ -129,7 +157,7 @@ main #cards {
 .card ul {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 14px;
 
   width: 270px;
 }
@@ -140,9 +168,9 @@ main #cards {
   justify-content: space-between;
 }
 
-.card ul li + li {
-  padding-top: 24px;
-  border-top: 1px solid #323238;
+.card .nome  {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #323238;
 }
 
 .card ul li strong {
@@ -161,7 +189,7 @@ main #cards {
 
 figcaption {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -185,34 +213,6 @@ figcaption {
   100% {
     opacity: 1;
   }
-}
-
-#menu ul {
-  background-color: #1d1c19;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-  border-radius: 5px;
-  border: 1px solid #ffffff48;
-  flex-wrap: wrap;
-}
-
-#menu li {
-  color: white;
-  padding: 10px 40px;
-  cursor: pointer;
-  transition: all 0.1s ease;
-}
-
-#menu li:hover {
-  background-color: white;
-  border-radius: 5px;
-  color: #261118;
-}
-.active {
-  background-color: white;
-  border-radius: 5px;
-  color: #da1355 !important;
 }
 
 @media (min-width: 700px) {
