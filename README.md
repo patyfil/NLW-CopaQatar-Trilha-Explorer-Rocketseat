@@ -14,14 +14,18 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <p align="center">
  versão 1 - Desktop <br />
-  <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20desktop.jpg" width="650" alt="template pc">  
+  <img alt="preview1 pc" src=".github/preview desktop.jpg>" width="650">
+  <!-- <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20desktop.jpg" width="650" alt="template pc">   -->
     <br />
  versão 2 - Desktop <br />
-  <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20desktop%20vers2.jpg" width="650" alt="template pc">  
+   <img alt="preview2 pc" src=".github/preview desktop vers2.jpg>" width="650">
+  <!-- <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20desktop%20vers2.jpg" width="650" alt="template pc">   -->
     <br />    
  versão 1 - Mobile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;versão 2 - Mobile <br />  
-  <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20mobile.jpg" width="250" alt="template mobile">
-  <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20mobile%20vers2.jpg" width="250" alt="template mobile"> 
+ <img alt="preview1 mobile" src=".github/preview mobile.jpg>" width="250">
+ <img alt="preview2 mobile" src=".github/preview mobile vers2.jpg>" width="250">
+  <!-- <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20mobile.jpg" width="250" alt="template mobile">
+  <img src = "https://github.com/patyfil/NLW-CopaQatar-Trilha-Explorer-Rocketseat/blob/main/assets/preview%20mobile%20vers2.jpg" width="250" alt="template mobile">  -->
 </p>
 
 
