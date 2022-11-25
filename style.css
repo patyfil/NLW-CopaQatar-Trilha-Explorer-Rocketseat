@@ -38,13 +38,14 @@ ul {
 
 body {
   background: #121214 var(--bg) no-repeat top center/cover;
-
+  // POSITION = X = TOP, Y = CENTER
+  // SIZE = COVER (COBRE TODO ESPAÇO)
   /* background-image: url(./assets/bgYellow.svg); */
   /* background-image: url(./assets/bgGreen.svg); */
   /* background-image: url(./assets/bgBlue.svg); */
   /* background-image: url(./assets/bgOverlay.svg); */
-  background-position-x: center;
-  background-position-y: 55.6%;
+  /* background-position-x: center;
+  background-position-y: 55.6%; */
 }
 
 body * {
@@ -203,6 +204,16 @@ figcaption {
   opacity: 0;
   animation: appear 0.2s forwards;
 }
+
+/* .card:nth-child(1) {
+  animation-delay: 1s;
+}
+.card:nth-child(2) {
+  animation-delay: 2s;
+}
+.card:nth-child(3) {
+  animation-delay: 3s;
+} */
 
 @keyframes appear {
   0% {
